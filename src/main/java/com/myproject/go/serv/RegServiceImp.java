@@ -110,6 +110,7 @@ public class RegServiceImp implements RegService {
 			catch(Exception e) {
 				return e.getMessage();
 			}
+//			sdadsad
 		}
 		@Override
 		public String markOuTimeAttendance(String outTimeOfDay, String emailId) {
