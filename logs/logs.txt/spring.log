@@ -1,0 +1,35 @@
+2020-04-30 20:28:25.494  INFO 2016 --- [main] com.myproject.go.MyprojectApplication    : Starting MyprojectApplication on DESKTOP-NGT4I8U with PID 2016 (F:\New folder\myproject\target\classes started by siva datta addanki in F:\New folder\myproject)
+2020-04-30 20:28:25.498  INFO 2016 --- [main] com.myproject.go.MyprojectApplication    : No active profile set, falling back to default profiles: default
+2020-04-30 20:28:27.979  INFO 2016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-30 20:28:27.980  INFO 2016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-04-30 20:28:28.025  INFO 2016 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.myproject.go.repo.RegestrationRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-04-30 20:28:28.026  INFO 2016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 0 JDBC repository interfaces.
+2020-04-30 20:28:28.058  INFO 2016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-30 20:28:28.059  INFO 2016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-30 20:28:28.164  INFO 2016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100ms. Found 1 JPA repository interfaces.
+2020-04-30 20:28:29.006  INFO 2016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9191 (http)
+2020-04-30 20:28:29.018  INFO 2016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-30 20:28:29.018  INFO 2016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-30 20:28:29.159  INFO 2016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-30 20:28:29.162  INFO 2016 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3589 ms
+2020-04-30 20:28:29.349  INFO 2016 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 20:28:29.452  INFO 2016 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 20:28:29.591  INFO 2016 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 20:28:29.892  INFO 2016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 20:28:30.856  INFO 2016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 20:28:30.893  INFO 2016 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-30 20:28:32.149  INFO 2016 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 20:28:32.157  INFO 2016 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-30 20:28:32.677  WARN 2016 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-30 20:28:32.941  INFO 2016 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-30 20:28:33.816  INFO 2016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9191 (http) with context path ''
+2020-04-30 20:28:33.819  INFO 2016 --- [main] com.myproject.go.MyprojectApplication    : Started MyprojectApplication in 9.167 seconds (JVM running for 10.491)
+2020-04-30 20:28:39.492  INFO 2016 --- [http-nio-9191-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-30 20:28:39.492  INFO 2016 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-30 20:28:39.521  INFO 2016 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2020-04-30 20:28:39.845  INFO 2016 --- [http-nio-9191-exec-2] com.myproject.go.serv.RegServiceImp      : details of r:com.myproject.go.model.RegestrationSchema@13b615e7
+2020-04-30 20:29:59.831  INFO 2016 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-30 20:29:59.832  INFO 2016 --- [RMI TCP Connection(5)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-30 20:29:59.834  INFO 2016 --- [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-30 20:29:59.838  INFO 2016 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-30 20:29:59.848  INFO 2016 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

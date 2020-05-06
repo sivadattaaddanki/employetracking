@@ -1,0 +1,37 @@
+2020-04-30 20:30:04.033  INFO 9888 --- [main] com.myproject.go.MyprojectApplication    : Starting MyprojectApplication on DESKTOP-NGT4I8U with PID 9888 (F:\New folder\myproject\target\classes started by siva datta addanki in F:\New folder\myproject)
+2020-04-30 20:30:04.036  INFO 9888 --- [main] com.myproject.go.MyprojectApplication    : No active profile set, falling back to default profiles: default
+2020-04-30 20:30:04.641  INFO 9888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-30 20:30:04.642  INFO 9888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-04-30 20:30:04.676  INFO 9888 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.myproject.go.repo.RegestrationRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-04-30 20:30:04.677  INFO 9888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 JDBC repository interfaces.
+2020-04-30 20:30:04.685  INFO 9888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-30 20:30:04.686  INFO 9888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-30 20:30:04.714  INFO 9888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 1 JPA repository interfaces.
+2020-04-30 20:30:05.197  INFO 9888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9191 (http)
+2020-04-30 20:30:05.207  INFO 9888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-30 20:30:05.208  INFO 9888 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-30 20:30:05.330  INFO 9888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-30 20:30:05.331  INFO 9888 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1247 ms
+2020-04-30 20:30:05.478  INFO 9888 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-30 20:30:05.541  INFO 9888 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-30 20:30:05.665  INFO 9888 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-30 20:30:05.847  INFO 9888 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-30 20:30:06.416  INFO 9888 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-30 20:30:06.428  INFO 9888 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-30 20:30:07.014  INFO 9888 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-30 20:30:07.021  INFO 9888 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-30 20:30:07.558  WARN 9888 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-30 20:30:07.727  INFO 9888 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-30 20:30:07.966  INFO 9888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9191 (http) with context path ''
+2020-04-30 20:30:07.968  INFO 9888 --- [main] com.myproject.go.MyprojectApplication    : Started MyprojectApplication in 4.299 seconds (JVM running for 5.047)
+2020-04-30 20:30:11.296  INFO 9888 --- [http-nio-9191-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-30 20:30:11.296  INFO 9888 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-30 20:30:11.305  INFO 9888 --- [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-04-30 20:30:11.438  INFO 9888 --- [http-nio-9191-exec-2] com.myproject.go.serv.RegServiceImp      : details of r:com.myproject.go.model.RegestrationSchema@343c30c
+2020-04-30 21:22:06.996  WARN 9888 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m470ms345µs800ns).
+2020-04-30 21:27:51.313  INFO 9888 --- [http-nio-9191-exec-5] com.myproject.go.serv.RegServiceImp      : details of r:com.myproject.go.model.RegestrationSchema@47148aac
+2020-04-30 21:40:39.607  INFO 9888 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-30 21:40:39.610  INFO 9888 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-30 21:40:39.611  INFO 9888 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-30 21:40:39.613  INFO 9888 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-30 21:40:39.626  INFO 9888 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
